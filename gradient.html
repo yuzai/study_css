@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<style>
+#grad1{
+	height:200px;
+	background:red;
+	/*background:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+/*	background: -webkit-repeating-linear-gradient(red, yellow 10%, green 20%);*/
+	background:repeating-linear-gradient(red,yellow 10%,green 20%);
+}
+#grad2{
+	height:200px;
+	background:red;
+	/*background:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+/*	background: -webkit-repeating-linear-gradient(red, yellow 10%, green 20%);*/
+	background:repeating-linear-gradient(190deg,red,yellow 10%,green 20%);
+}
+#grad3{
+	height:150px;
+	width:200px;
+	background:red;
+	/*background:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+/*	background: -webkit-repeating-linear-gradient(red, yellow 10%, green 20%);*/
+	background:repeating-radial-gradient(red,green 10%,blue 20%);
+}
+
+</style>
+</head>
+
+<body>
+
+<h3>Repeating Linear Gradient</h3>
+
+<div id="grad1"></div>
+
+<p>A repeating gradient on 45deg axe starting red and finishing green:</p>
+<div id="grad2"></div>
+
+<p>A repeating gradient on 190deg axe starting red and finishing green:</p>
+<div id="grad3"></div>
+
+<p>A repeating gradient on 90deg axe starting red and finishing green:</p>
+<div id="grad4"></div>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support gradients.</p>
+
+</body>
+
+</body>
+
+</html>

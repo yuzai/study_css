@@ -1,0 +1,79 @@
+<!-- ex1 -->
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+<style>
+#home{
+	display:block;
+	width:46px;
+	height:44px;
+	background: url(http://www.w3schools.com/css/img_navsprites.gif) 0 0;
+}
+#next{
+	display:block;
+	width:43px;
+	height:44px;
+	background: url(http://www.w3schools.com/css/img_navsprites.gif) -91px 0;
+}
+</style>
+</head>
+
+<body>
+
+<span id="home" ></span><br>
+<span id="next"></span><br>
+
+</body>
+
+</html> -->
+
+<!-- ex2 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+#navlist {
+    position: relative;
+}
+#navlist li, #navlist a {
+    height: 44px;
+/*    display: block;*/
+}
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+#home{
+	width:46px;
+	left:0px;
+	background: url(http://www.w3schools.com/css/img_navsprites.gif) 0 0;
+}
+#next{
+	width:43px;
+	left:63px;
+	background: url(http://www.w3schools.com/css/img_navsprites.gif) -91px 0;
+}
+#prev {
+    width: 43px;
+    left:129px;
+    background: url(http://www.w3schools.com/css/img_navsprites.gif) -47px 0;
+}
+</style>
+</head>
+
+<body>
+
+<ul id= navlist>
+<li id=home><a href = '#'></a></li>
+<li id=next><a href = '#'></a></li>
+<li id=prev><a href = '#'></a></li>
+</ul>
+
+</body>
+
+</html>
