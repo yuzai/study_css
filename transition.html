@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<style>
+.t1{
+	width:100px;
+	height:100px;
+	background-color:red;
+/*	transition: width 2s,height 2s;*/
+    transition: background 4s,width 2s ease-in-out 4s, height 2s ease-in-out,transform 2s ease-in-out 1s;
+	margin:100px auto;
+/*	transition-timing-function: linear;
+	transition-timing-function: ease;
+	transition-timing-function: ease-in;
+	transition-timing-function: ease-out;
+*/	/*transition-timing-function: ease-in-out;
+transition-delay:  ;*/
+}
+.t1:hover{
+	width:300px;
+	height:300px;
+	transform:rotate(-90deg);
+	background-color: blue;
+}
+</style>
+</head>
+
+<body>
+
+<div class="t1">
+</div>
+
+</body>
+
+</html>

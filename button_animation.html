@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<style>
+
+.button{
+	text-transform: capitalize;
+	background-color: #4CAF50;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	border:none;
+	padding:15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+    transition: 0.5s;
+     width: 200px;
+}
+.button span{
+	position:relative;
+	transition: 0.5s;
+}
+.button:hover span{
+	padding-right:25px;
+}
+.button span:after{
+    content: '----';
+  	position: absolute;
+  	opacity: 0.5;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<button class='button'><span>hover</span></button>
+
+</body>
+
+</html>
