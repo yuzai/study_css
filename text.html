@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<style>
+.test1{
+	width:200px;
+	white-space: nowrap;
+	border:1px solid grey;
+	overflow: hidden;
+	text-overflow: clip;
+	word-wrap: break-word;
+
+}
+.test1:hover,.test2:hover{
+/*	text-overflow: inherit;*/
+	overflow: visible;
+
+}
+.test2{
+	width:200px;
+	white-space: nowrap;
+	border:1px solid grey;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+</style>
+</head>
+
+<body>
+
+<p>The following two paragraphs contains a long text that will not fit in the box.</p>
+
+<p>text-overflow: clip:</p>
+<p class="test1">This is some long text that will not fit in the box</p>
+
+<p>text-overflow: ellipsis:</p>
+<p class="test2">This is some long text that will not fit in the box</p>
+
+
+</body>
+
+</html>
